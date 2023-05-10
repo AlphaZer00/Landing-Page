@@ -4,15 +4,22 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
-
-.header {
+/*
+HEADER SECTION
+*/
+.header-holder {
     background-color: #1F2937;
     padding: 0px 120px;
     color: white;
     padding-bottom: 40px;
     border: none;
+    display: flex;
+    justify-content: center;
 }
 
+.header {
+    max-width: 850px;
+}
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -78,6 +85,10 @@ a {
     margin: 5% auto;
 }
 
+/*
+INFORMATION SECTION
+*/
+
 .information {
     display: flex;
     flex-direction: column;
@@ -113,6 +124,10 @@ a {
     border-radius: 15px;
 }
 
+/* 
+QUOTE SECTION
+*/
+
 .quote-section {
     background-color: #E5E7EB;
     min-height: 350px;
@@ -142,3 +157,47 @@ a {
     flex-direction: column;
     max-width: 700px;
 }
+
+/*
+CALL TO ACTION SECTION
+*/
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action {
+    padding: 20px 100px;
+    margin: 70px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 550px;
+}
+
+.call-to-action>.left-side>h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.call-to-action>.left-side {
+    max-width: 450px;
+}
+
+.call-to-action>button {
+    color: #F9FAF8;
+    font-size: 14px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: 2px solid #F9FAF8;
+    min-width: fit-content;
+    padding: 5px 15px;
+}
+
+/*Notes for next session:
+ Need to center text in CTA and style footer. */
