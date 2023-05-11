@@ -95,7 +95,6 @@ INFORMATION SECTION
     align-items: center;
     padding: 20px 100px;
     gap: 20px;
-
 }
 
 .information>h1 {
@@ -155,7 +154,7 @@ QUOTE SECTION
 .text-container {
     display: flex;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 850px;
 }
 
 /*
@@ -177,16 +176,17 @@ CALL TO ACTION SECTION
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 550px;
+    max-width: 700px;
 }
 
 .call-to-action>.left-side>h1 {
     font-size: 24px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .call-to-action>.left-side {
     max-width: 450px;
+    min-height: 80px;
 }
 
 .call-to-action>button {
@@ -197,7 +197,8 @@ CALL TO ACTION SECTION
     border: 2px solid #F9FAF8;
     min-width: fit-content;
     padding: 5px 15px;
+    margin-left: 10px;
 }
 
-/*Notes for next session:
+/*Notes for next sessions:
  Need to center text in CTA and style footer. */
