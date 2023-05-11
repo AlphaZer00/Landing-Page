@@ -186,7 +186,8 @@ CALL TO ACTION SECTION
 
 .call-to-action>.left-side {
     max-width: 450px;
-    min-height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .call-to-action>button {
@@ -200,5 +201,15 @@ CALL TO ACTION SECTION
     margin-left: 10px;
 }
 
-/*Notes for next sessions:
- Need to center text in CTA and style footer. */
+/*
+FOOTER
+*/
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    
+}
